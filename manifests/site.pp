@@ -3,6 +3,7 @@ node default {
     ensure => file,
     content => 'This is my readme file',
     owner => 'root',
+  }
 }
 
 node 'master.puppet.vm' {
